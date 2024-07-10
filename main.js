@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     minWidth: 200,
                     autoClose: false,
                     closeOnClick: false,
-                    className: 'workout'
+                    className: 'workout-popup'
                 }))
                 .setPopupContent("Workout")
                 .openPopup();

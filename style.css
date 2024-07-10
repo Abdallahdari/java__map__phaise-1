@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.workout-popup {
+    border-left: 4px solid #00c46a;
+    border-radius: 13px;
+    z-index:-1;
+}
