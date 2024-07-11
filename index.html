@@ -12,12 +12,40 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="flex h-screen items-start justify-start py-5 px-12  ">
-<div class="h-full  w-[30rem] bg-slate-500"></div>
+    <div class="flex h-screen items-start justify-start py-5 px-5  ">
+<div class="h-full  w-[40rem] bg-[#262A2B] py-5 px-6">
+    <div class="px-10 py-5">
+<form id="forom" class="transition duration-100 grid border-l-4 border-green-400 grid-cols-2 gap-x-20 gap-y-5 bg-[#363A3D] rounded-md px-7 py-5">
+    <div class="flex items-center justify-between">
+        <label for="" class="text-[15px]">Type</label>
+        <select name="" id="input--type" class="w-24 rounded-md px-4 py-1 text-[15px]">
+            <option value="Running">Running</option>
+            <option value="cycling">Cycling</option>
+        </select>
+    </div>
+    <div class="flex items-center justify-between">
+        <label for="input-distance">Distance</label>
+        <input id="forom-distance" class="w-24 rounded-md px-2 py-1 outline-none">
+    </div>
+    <div class="flex items-center justify-between">
+        <label for="input-Duration">Duration</label>
+        <input id="forom-Duration" class="input-distance w-24 rounded-md px-2 py-1 outline-none">
+    </div>
+    <div class="form__row flex items-center justify-between">
+        <label for="Cadence">Cadence</label>
+        <input id="forom-Cadence" type="text" class="w-24 rounded-md px-2 py-1 outline-none" placeholder="step/min">
+    </div>
+</form>
+    
+    
+</div>
+</div>
 <div id="map" class=" h-full  flex-1  "></div>
        
 
      
-    </div>
+   
+
+</div>
 </body>
 </html>
